@@ -15,10 +15,12 @@
     background-color: #ffffff;
 }
 
-.logo a {}
+/* .logo a {
+
+} */
 
 .logo img {
-    height: 48px;
+    height:48px;
 }
 
 .nav-center ul {
@@ -49,4 +51,22 @@
 
 .nav-right a:hover img {
     opacity: 0.7;
+}
+
+.btn-outline {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    line-height: 23px;
+
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    color: #6329A2;
+}
+
+.btn:hover{
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
 }
