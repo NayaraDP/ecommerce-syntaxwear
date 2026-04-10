@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SyntaxWear Tênis e Sneakers Online</title>
-    <meta name="description" content="Compre os melhores tênis e sneakers online na SyntaxWear. Encontre os modelos mais estilosos e confortáveis para todas as ocasiões. Frete grátis e entrega rápida!" />
+    <meta name="description"
+        content="Compre os melhores tênis e sneakers online na SyntaxWear. Encontre os modelos mais estilosos e confortáveis para todas as ocasiões. Frete grátis e entrega rápida!" />
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
 </head>
 
 <body>
@@ -55,47 +57,47 @@
     <main>
         <section class="hero-section">
             <div class="hero-overlay">
-            <div class="hero-content">
-                <span class="hero-subtitle">Krypton one</span>
-                <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-                <div class="hero-buttons">
-                    <a class="btn btn-outline" href="#">Ver modelos</a>
-                    <a class="btn btn-filled" href="#">Comprar</a>
+                <div class="hero-content">
+                    <span class="hero-subtitle">Krypton one</span>
+                    <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+                    <div class="hero-buttons">
+                        <a class="btn btn-outline" href="#">Ver modelos</a>
+                        <a class="btn btn-filled" href="#">Comprar</a>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
 
         <section class="categories-section">
 
-                <div class="category-card casual">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn btn btn-outline">Casual</span>
-                    </a>
-                </div>
+            <div class="category-card casual">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn btn-outline">Casual</span>
+                </a>
+            </div>
 
-                <div class="category-card esporte">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn btn-outline">Esporte</span>
-                    </a>
-                </div>
+            <div class="category-card esporte">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Esporte</span>
+                </a>
+            </div>
 
-                <div class="category-card moderno">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn btn-outline">Moderno</span>
-                    </a>
-                </div>
+            <div class="category-card moderno">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Moderno</span>
+                </a>
+            </div>
 
-                <div class="category-card futurista">
-                    <a href="#" class="category-link">
-                        <span class="overlay"></span>
-                        <span class="category-name btn btn-outline">Futurista</span>
-                    </a>
-                </div>
-            
+            <div class="category-card futurista">
+                <a href="#" class="category-link">
+                    <span class="overlay"></span>
+                    <span class="category-name btn btn-outline">Futurista</span>
+                </a>
+            </div>
+
         </section>
 
         <section class="grid-section">
@@ -117,7 +119,7 @@
             <div class="card midL">
             </div>
 
-            <div class="card midR"> 
+            <div class="card midR">
             </div>
 
             <div class="card bottomL">
@@ -129,7 +131,101 @@
     </main>
 
     <footer class="site-footer">
+        <div class="footer-container" id="footer">
+            <!-- Newsletter Section -->
+            <div class="footer-newsletter">
+                <h3 class="footer-newsletter-title">Inscreva-se em nosso e-mail</h3>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="email@email.com" required>
+                </form>
+                <div class="footer-social">
+                    <h4 class="footer-social-title">Redes sociais</h4>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://instagram.com" class="social-icon instagram" aria-label="Instagram">
+                                <img src="./assets/images/icons/instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me" class="social-icon whatsapp" aria-label="WhatsApp">
+                                <img src="./assets/images/icons/whatsapp.png" alt="WhatsApp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tiktok.com" class="social-icon tiktok" aria-label="TikTok">
+                                <img src="./assets/images/icons/tiktok.png" alt="TikTok">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com" class="social-icon facebook" aria-label="Facebook">
+                                <img src="./assets/images/icons/facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
+            <!-- Social Media Section -->
+
+
+
+            <!-- Navigation Columns -->
+            <nav class="footer-nav">
+                <!-- Masculino Column -->
+                <div class="footer-nav-column">
+                    <h4 class="footer-nav-title">Masculino</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#casual">Casual</a></li>
+                        <li><a href="#esporte">Esporte</a></li>
+                        <li><a href="#moderno">Moderno</a></li>
+                        <li><a href="#futurista">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <!-- Feminino Column -->
+                <div class="footer-nav-column">
+                    <h4 class="footer-nav-title">Feminino</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#casual">Casual</a></li>
+                        <li><a href="#esporte">Esporte</a></li>
+                        <li><a href="#moderno">Moderno</a></li>
+                        <li><a href="#futurista">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <!-- Outlet Column -->
+                <div class="footer-nav-column">
+                    <h4 class="footer-nav-title">Outlet</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#outlet-masculino">Masculino</a></li>
+                        <li><a href="#outlet-feminino">Feminino</a></li>
+                    </ul>
+                </div>
+
+                <!-- Nossas Lojas Column -->
+                <div class="footer-nav-column">
+                    <h4 class="footer-nav-title">Nossas lojas</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#loja-fisica">Loja física</a></li>
+                        <li><a href="#loja-online">Loja online</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sobre Column -->
+                <div class="footer-nav-column">
+                    <h4 class="footer-nav-title">Sobre</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="#missao">Missão</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p class="copyright">Copyright. All Rights Reserved</p>
+        </div>
     </footer>
 
 </body>
