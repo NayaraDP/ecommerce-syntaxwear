@@ -1,5 +1,5 @@
 /* produto-grid.css */
-.card{
+.card {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,21 +21,21 @@
     text-align: center;
 }
 
-.card-title{
+.card-title {
     color: #EDEDED;
     font-size: 1.25rem;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
-.card-subtitle{
+.card-subtitle {
     color: #EDEDED;
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-.cta-group{
+.cta-group {
     display: flex;
     gap: 10px;
 }
@@ -77,3 +77,33 @@
     gap: 30px;
 }
 
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "top1 top1"
+            "bottomL bottomL"
+            "midL midR"
+            "midL bottomR"
+            "top2 top2";
+        width: 100%;
+        gap: 0.625rem;
+    }
+
+    .top1 {
+        min-height: 500px;
+    }
+
+    .bottomL {
+        min-height: 190px;
+    }
+
+    .midL {
+        min-height: 350px;
+    }
+
+    .midR,
+    .bottomR {
+        min-height: 190px;
+    }
