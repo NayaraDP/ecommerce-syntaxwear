@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/product-category.css">
@@ -27,30 +26,37 @@
             </a>
         </h1>
 
-        <nav class="nav-center" aria-label="Categorias Principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./assets/images/icons/hamburguer.svg" alt="Menu mobile">
+        </label>
 
-        <nav class="nav-right" aria-label="Menu secundário">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
 
-                <li><a href="#" aria-label="Perfil">
-                        <img src="/assets/images/icons/user.svg" alt="Perfil">
-                    </a></li>
-                <li><a href="#" aria-label="Ajuda">
-                        <img src="/assets/images/icons/help.svg" alt="Ajuda">
-                    </a></li>
-                <li><a href="#" aria-label="Carrinho">
-                        <img src="/assets/images/icons/cart.svg" alt="Carrinho">
-                    </a>
-                </li>
-            </ul>
+            <nav class="nav-right" aria-label="Menu secundário">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+
+                    <li><a href="#" aria-label="Perfil">
+                            <img src="./assets/images/icons/user.svg" alt="Perfil">
+                        </a></li>
+                    <li><a href="#" aria-label="Ajuda">
+                            <img src="./assets/images/icons/help.svg" alt="Ajuda">
+                        </a></li>
+                    <li><a href="#" aria-label="Carrinho">
+                            <img src="./assets/images/icons/cart.svg" alt="Carrinho">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
 
