@@ -119,11 +119,12 @@
 
     .nav-center ul,
     .nav-right ul {
-        display: flex; /* Garante o comportamento flex */
+        display: flex; 
         flex-direction: column;
         gap: 1.5rem;
         width: 100%;
         align-items: center;
+        padding:0;
     }
 
     .nav-center a,
@@ -135,15 +136,6 @@
         display: block;
         text-align: center; 
     }
-
-    /* .nav-right ul li {
-        width: 100%;
-    }
-
-    .nav-right img {
-        height: 24px; 
-    } */
-
 
     .menu-toggle:checked ~ .nav-container {
         right: 0;
